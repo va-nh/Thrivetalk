@@ -1,0 +1,282 @@
+/*Обнуление*/
+* {padding: 0; margin: 0; border: 0;}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+html, body {height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+/*--------------------*/
+
+body{
+	color: #22356F;
+}
+/*------------------------------------------*/
+.wrapper {
+
+}
+._container {
+	max-width: 1130px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+._logo {
+	color: #62D0DF;
+	font-weight: 500;
+}
+/*----------------HEADER-TOP--------------------------*/
+
+.header {
+	background: #F4F9E2;
+}
+.header__container {
+	max-width: 1130px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.header__logo {
+	font-size: 24px;
+	line-height: calc(27 / 24 * 100%);
+	letter-spacing: -0.035em;
+	color: #62D0DF;
+	font-weight: 500;
+}
+.header__menu {
+
+}
+.menu {
+	padding-top: 10px;
+}
+.menu-list {
+	display: flex;
+}
+.menu-list > :not(:last-child){
+	margin: 0 20px 0 0;
+}
+.menu-item {
+
+}
+.menu-link {
+	font-size: 14px;
+	line-height: calc(16 / 14 * 100%);
+	color: inherit;
+	transition: 0.7s;
+}
+.menu-link:hover{
+	text-decoration: underline;
+}
+.menu-link_home {
+	font-weight: 600;
+}
+.menu-line {
+	margin: 10px 0px 0px -6.5px;
+	height: 0.9px;
+	width: 50px;
+	background: #22356F;
+}
+.header__button {
+	margin-top: 8px;
+	font-weight: 600;
+	background: #62D0DF;
+	padding: 18px 28px;
+	border-radius: 50px;
+	letter-spacing: 0.4px;
+	transition: all 0.7s;
+}
+.header__button:hover {
+	background: #22356F;
+}
+.button-text {
+	font-size: 14px;
+	line-height: calc(16 / 14 * 100%);
+	color: #fff;
+}
+/*------------------HEADER-BOTTOM-----------------------------*/
+.header-bottom {
+	background: #F4F9E2;
+	padding: 160px 0 0 0;
+}
+.header-bottom__container {
+
+}
+.header-bottom__body {
+	
+}
+.header-bottom__logo {
+	font-size: 24px;
+	line-height: calc(27 / 24 * 100%);
+	letter-spacing: -0.035em;
+}
+.header-bottom__title {
+	max-width: 480px;
+	font-weight: 600;
+	margin: 40px 0 0 0;
+	font-size: 43px;
+	line-height: calc(53 / 48 * 100%);
+	letter-spacing: -0.035em;
+}
+.header-bottom__sub-title {
+	margin: 70px 0 0 0;
+	max-width: 460px;
+	font-size: 24px;
+	line-height: calc(42 / 24 * 100%);	
+}
+.header-bottom__buttons {
+	margin: 60px 0px 0 0;
+	padding: 0px 0px 80px 0px;
+}
+.header-bottom__button {
+	
+}
+.header-bottom__button:not(:last-child){
+	margin: 0px 10px 0px 0px;
+}
+.header-bottom__button_one {
+	font-size: 16px;
+	line-height: calc(23 / 16 * 100%);
+	letter-spacing: 0.1em;
+	color: #fff;
+	background: #F9B640;
+	padding: 15px 30px;
+	transition-duration: 0.7s, 2s;
+	transition-property: background, border-radius;
+}
+.header-bottom__button:hover{
+	background: #22356F;
+	border-radius: 40px;
+}
+.header-bottom__button_two {
+	font-size: 16px;
+	line-height: calc(23 / 16 * 100%);
+	letter-spacing: 0.1em;
+	color: #FAB63E;
+	padding: 15px 13px;
+	transition-duration: 0.7s;
+	transition-duration: 0.7s, 2s, 0.7s;
+	transition-property: background, border-radius, color;
+}
+.header-bottom__button:hover{
+	background: #22356F;
+	border-radius: 40px;
+	color: #fff;
+}
+/*---------------------------WHY-THRIVE--------------------------*/
+.why-thrive {
+
+}
+.why-thrive__body {
+	display: flex;
+	max-height: 590px;
+}
+.why-thrive__block-content {
+	background: #62D0DF;
+	color: #fff;
+}
+.why-thrive__title {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: calc(27 / 36 * 100%);
+	letter-spacing: -0.006em;
+	margin: 100px 0px 100px 220px;
+}
+.why-thrive__sub-title {
+	font-size: 20px;
+	line-height: calc(28 / 20 * 100%);
+	margin: 0px 240px 0px 220px;
+	max-width: 540px;
+}
+@media (max-width: 1400px){
+	.why-thrive__title{
+		margin: 100px 0px 100px 100px;
+	}
+	.why-thrive__sub-title{
+		margin: 0px 130px 0px 100px;
+		max-width: 600px;
+	}
+}
+@media (max-width: 1178px){
+	.why-thrive__title{
+		margin: 100px 0px 100px 30px;
+	}
+	.why-thrive__sub-title{
+		margin: 0px 30px 0px 30px;
+		max-width: 600px;
+	}
+}
+@media (max-width: 1010px){
+	.why-thrive__body{
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+	}
+	.about-us{
+		margin-top: 590px;
+	}
+	.why-thrive__block-content{
+		max-width: 523px;
+	}
+}
+@media (max-width: 700px){
+	.why-thrive__image {
+		display: inline;
+		background: none;
+	}
+}
+.why-thrive__span {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: calc(35 / 24 * 100%);
+}
+.why-thrive__image {
+	height: 590px;
+	width: 523px;
+}
+/*----------ABOUT-US------------------------------*/
+.about-us {
+
+}
+.about-us__body {
+	max-height: 460px;
+	display: flex;
+	margin: 150px 0 0 0;
+}
+.about-us__title {
+	font-size: 16px;
+	line-height: calc(22 / 16 * 100%);
+	letter-spacing: 0.06em;
+	font-weight: 100;
+	margin: 0 0 0 106px;
+}
+.about-us__block {
+	margin: 0 0 25px 280px;
+}
+.about-us__sub-title {
+	font-size: 24px;
+	line-height: calc(34 / 24 * 100%);
+	letter-spacing: 0.005em;
+	font-weight: 600;
+	max-width: 590px;
+	margin: 0 0 75px 0;
+}
+.about-us__text {
+	color: rgba(34, 53, 111, 0.5);
+	font-size: 16px;
+	line-height: calc(19 / 16 * 100%);
+	letter-spacing: 0.06em;
+	display: flex;
+	justify-content: center;
+}
